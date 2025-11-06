@@ -7,7 +7,10 @@ def main():
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
-
+    print("liikaa riviä!")
+    print("liikaa riviä!")
+    print("liikaa riviä!")
+    
     olut_get()
     mehu_set()
 
