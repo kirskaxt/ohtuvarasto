@@ -7,15 +7,12 @@ def main():
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
-    
     olut_get()
     mehu_set()
     virhe_tilanteita()
-
     print("Varasto(100.0, -50.7)")
     huono = Varasto(100.0, -50.7)
     print(huono)
-
     olut_varasto_lisaa()
     mehu_varasto_lisaa()
     olut_varasto_ota()
