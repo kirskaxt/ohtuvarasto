@@ -10,7 +10,6 @@ def main():
     
     olut_get()
     mehu_set()
-
     virhe_tilanteita()
 
     print("Varasto(100.0, -50.7)")
@@ -19,7 +18,6 @@ def main():
 
     olut_varasto_lisaa()
     mehu_varasto_lisaa()
-
     olut_varasto_ota()
     mehu_varasto_ota()
 
